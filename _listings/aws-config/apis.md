@@ -13,11 +13,24 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Used
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/used/master/_listings/aws-config/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: AWS Config API - Put Evaluations
+  x-api-slug: actionputevaluations-get
+  description: Used by an AWS Lambda function to deliver evaluation results to AWS
+    Config.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSConfig.png
+  humanURL: https://aws.amazon.com/config/
+  baseURL: :///
+  tags: Amazon Web Services, Applications, Regulations, Governance, Security, Authentication,
+    Stack Network, API Service Provider, API Service Provider, API Provider, Profiles,
+    Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/used/master/_listings/aws-config/actionputevaluations-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.cognito.api.gallery.streamdata.io
